@@ -11,5 +11,5 @@ This project implements a Retrieval-Augmented Generation (RAG) chain using LangC
 
 ## Prerequisites
 
-Python 3.8+
-OpenAI API key
+* Python 3.11+
+* OpenAI API key
