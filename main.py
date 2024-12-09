@@ -152,7 +152,7 @@ def main():
         rag_builder = RAGChainBuilder(persist_directory="./chroma_db")
         rag_builder.initialize_llm()
 
-        # Load and process content
+        # Load and content
         url = "https://www.presidency.ucsb.edu/documents/presidential-debate-atlanta-georgia"
         docs = rag_builder.load_web_content(url)
         splits = rag_builder.split_documents(docs)
