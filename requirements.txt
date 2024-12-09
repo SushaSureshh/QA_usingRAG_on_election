@@ -1,0 +1,8 @@
+langchain
+langchain-openai
+langchain-community
+langchain-chroma
+langchain-core
+beautifulsoup4
+python-dotenv
+chromadb
